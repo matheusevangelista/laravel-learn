@@ -41,3 +41,6 @@ php artisan make:controller TasksController -r
 
 ## FIXING BUGS DE REFERÊNCIAS DE ARQUIVOS REMOVIDOS ##
 composer dump-autoload
+
+## GERANDO NOVA KEY DE APLICACAO ##
+php artisan key:generate
