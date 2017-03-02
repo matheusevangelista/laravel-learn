@@ -33,6 +33,9 @@ $table->collation = 'utf8_unicode_ci';
 php artisan make:model Task
 (Task) Model no singular
 
+## CRIAND UM MODEL COM MIGRAÇÃO ##
+php artisan make:model Commment -m
+
 ## CRIANDO UMA CONTROLLER ##
 php artisan make:controller TasksController
 
@@ -44,3 +47,16 @@ composer dump-autoload
 
 ## GERANDO NOVA KEY DE APLICACAO ##
 php artisan key:generate
+
+## RECOLHENDO ASSETS DA RESOURCE E MIGRANDO PARA A PASTA PUBLIC ##
+npm run dev
+<dev> nome do comando presente em package.json
+Disponíveis:
+ - dev
+ - watch
+ - hot
+ - production
+
+Para configurar os arquivos a serem recolhidos, modificar o webpack.mix.js
+
+https://laravel.com/docs/5.4/mix
