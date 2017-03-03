@@ -50,6 +50,7 @@ php artisan key:generate
 
 ## RECOLHENDO ASSETS DA RESOURCE E MIGRANDO PARA A PASTA PUBLIC ##
 npm run dev
+
 <dev> nome do comando presente em package.json
 Disponíveis:
  - dev
