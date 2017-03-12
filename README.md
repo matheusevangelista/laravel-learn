@@ -42,6 +42,12 @@ php artisan make:controller TasksController
 ## CRIANDO UMA CONTROLLER COM MÉTODOS DO CRUD ##
 php artisan make:controller TasksController -r
 
+## CRIANDO UM SEEDER ##
+php artisan make:seeder PermissionTableSeeder
+
+## EXECUTANDO UMA SEED ##
+php artisan db:seed --class=PermissionTableSeeder
+
 ## FIXING BUGS DE REFERÊNCIAS DE ARQUIVOS REMOVIDOS ##
 composer dump-autoload
 
